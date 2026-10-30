@@ -1,0 +1,32 @@
+/* erica.adr brand tokens */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Public+Sans:wght@300;400;600&display=swap');
+
+:root {
+  /* Primary */
+  --color-red: #980d11;
+  --color-cream: #fff3ed;
+
+  /* Secondary */
+  --color-pink: #ffbfb3;
+  --color-gold: #d9b77c;
+
+  /* Text */
+  --text-black: #000000;
+  --text-red: #980d11;
+  --text-cream: #fff3ed;
+
+  --bg: #fff3ed;
+
+  /* Fonts (Soli Px is not on Google Fonts; load it yourself if needed) */
+  --font-title: 'Montserrat', sans-serif;
+  --font-subtitle-1: 'Public Sans', sans-serif;
+  --font-subtitle-2: 'Soli Px', 'Montserrat', sans-serif;
+  --font-body: 'Public Sans', sans-serif;
+  --font-accent: 'Public Sans', sans-serif;
+}
+
+body { background: var(--bg); color: var(--text-black); font-family: var(--font-body); }
+h1 { font-family: var(--font-title); }
+h2 { font-family: var(--font-subtitle-1); }
+h3 { font-family: var(--font-subtitle-2); }
+.accent { font-family: var(--font-accent); font-weight: 300; }

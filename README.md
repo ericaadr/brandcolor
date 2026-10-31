@@ -32,3 +32,4 @@ Background default: `#fff3ed`.
 - `brand.css` — CSS variables (`var(--color-red)` dst.)
 - `tailwind.config.js` — tema Tailwind (`bg-brand-red`, `font-title`, dst.)
 - `index.html` — halaman preview palet
+- `.claude/skills/erica-carousel/` — skill Claude untuk membuat carousel @erica.adr (+ contoh slide)
